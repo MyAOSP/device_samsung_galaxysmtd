@@ -39,7 +39,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 	device/samsung/galaxysmtd/overlay
 
 PRODUCT_COPY_FILES := \
-	device/samsung/galaxysmtd/asound.conf:system/etc/asound.conf
+	device/samsung/galaxysmtd/asound.conf:system/etc/asound.conf \
+    vendor/baked/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
